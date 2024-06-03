@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body
+    {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .box1
+    {
+      background-color: red;
+      height: 100px;
+      width: 100px;
+      transition: 1s;
+      transform-origin: top;
+    }
+    .box1:hover
+    {
+      transform-origin: top;
+      transition: 1s;
+      transform: perspective(1100px) rotateX(180deg);
+    }
+  </style>
+</head>
+<body>
+  <div class="box1">
+    
+  </div>
+</body>
+</html>

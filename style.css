@@ -1,0 +1,491 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.icon
+{
+    height: 60px;
+    width: 60px;
+}
+
+.navbar .navbar-nav .nav-item a
+{
+    padding: 15px;
+}
+
+.music
+{
+    width: 100px;
+    height: 50px;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.music .bar
+{
+    width: 1px;
+    animation: move 1.3s ease-in-out infinite; 
+}
+
+@keyframes move
+{
+    0%,100%
+    {
+        height: 2px;
+    } 
+    50%
+    {
+        height: 40px;
+    }
+}
+
+.music .bar:nth-child(1)
+{
+    background: white;
+    animation-delay: 1s;
+}
+.music .bar:nth-child(2)
+{
+    background: yellow;
+    animation-delay: 0.8s;
+}
+.music .bar:nth-child(3)
+{
+    background: white;
+    animation-delay: 0.6s;
+}
+.music .bar:nth-child(4)
+{
+    background: yellow;
+    animation-delay: 0.4s;
+}
+.music .bar:nth-child(5)
+{
+    background: white;
+    animation-delay: 0.2s;
+}
+.music .bar:nth-child(6)
+{
+    background: yellow;
+    animation-delay: 0.2s;
+}
+.music .bar:nth-child(7)
+{
+    background: white;
+    animation-delay: .4s;
+}
+.music .bar:nth-child(8)
+{
+    background: yellow;
+    animation-delay: .6s;
+}
+.music .bar:nth-child(9)
+{
+    background: white;
+    animation-delay: .8s;
+}
+.music .bar:nth-child(10)
+{
+    background: yellow;
+    animation-delay: 1s;
+}
+
+.sec1
+{
+    background: url('249531.jpeg') no-repeat; background-size: cover; background-attachment: fixed;
+    height: 100vh;
+}
+
+.sec2
+{
+    background: url('1117123.png') no-repeat; background-size: cover; background-attachment: fixed; 
+    /* height: 100vh; */
+    
+}
+
+.secc1
+{
+    animation: moveup;
+    animation-duration: 3.5s;
+}
+
+@media screen and (max-width: 992px) 
+{
+    .sec1
+    {
+        height: 950px;
+    }
+}
+
+@keyframes moveup
+{
+    from
+    {
+        transform: translateY(40px);
+    }
+}
+
+/* PlayNow */
+
+.bupn
+{
+    transition: 2s;
+    animation: butpn;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 4.5s;
+}
+
+@keyframes butpn
+{
+    from{
+        border: 2px solid whitesmoke;
+    }
+    to
+    {
+        border: 1px solid orange;
+    }
+}
+
+.bupn:hover
+{
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+.bup
+{
+    transition: 2s;
+    border-radius: 5px;
+}
+
+.bup:hover
+{
+    transform: translateY(10px);
+    transition: 1.1s;
+    border-radius: 40px;
+}
+
+/* RockstarIcon */
+
+.rsicon
+{
+    height: 55px;
+    width: 60px;
+    transition: 1.5s;
+}
+
+.rsicon:hover
+{
+    /* height: 57px; */
+    width: 80px;
+    transition: 1s;
+    transform: scale(1.2)
+}
+
+
+
+.img1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    /* width: auto; */
+    transition: 1.5s;
+    color: whitesmoke;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.img1:hover
+{
+    color: white;
+    font-size: 50px;
+    background: rgba(0,0,0,0.6);
+    transition: 1s;
+    transform: scaleZ(20px);
+}
+
+.img2
+{
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px; 
+    height: 70vh;
+}
+
+.img2:hover
+{
+    transition: 1s;
+    transform: scaleY(.95);
+}
+
+
+.back
+{
+    position: absolute;
+    /* right: 0; */
+    bottom: 0;
+}
+
+.tren
+{
+    border: 1px solid black;
+    padding: 10px;
+    transition: 1s;
+}
+
+.tren:hover
+{
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+
+.sec3
+{
+    background: url('213121.jpg') no-repeat; 
+    background-size: cover; background-attachment: fixed;
+    background-position: center;
+}
+
+.img3   
+{
+    height: 100px;
+    width: 70px;
+}
+
+.secc3
+{
+    transition: 1s;    
+}
+
+.secc3:hover
+{
+    transition: .5s;
+    border-radius: 30px;
+    background-color: rgba(72, 68, 68, 0.421);
+    cursor: pointer;
+}
+
+
+.sec4
+{
+    background: url('1842111.jpg') no-repeat; 
+    background-size: cover; background-attachment: fixed;
+    background-position: center;
+    height: auto;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon 
+{
+    height: 30px;
+    width: 30px;
+    border-radius: 20%;
+    border: 3px solid white;
+    transition: 0.5s;
+}
+
+.carousel-control-prev-icon:hover,.carousel-control-next-icon:hover
+{
+    transition: .5s;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.lu
+{
+    background-color: white; height: 250px;
+}
+
+@media screen and (max-width: 992px) 
+{
+    .lu
+    {
+        height: 100px;
+        text-align: center
+    }
+}
+
+.lu1
+{
+    transition: 1s;
+    background-color: transparent;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.lu1:hover
+{
+    transition: .5s;
+    background-color: rgba(240, 248, 255, 0.248);
+    cursor: pointer;
+    /* width: 100px; */
+    border-radius: 10%;
+    transform: scale(0.9);
+}
+
+.luimg
+{
+    /* box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.432); */
+    transition: .5s;
+}
+
+.luimg:hover
+{
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.508);
+    transform: translateY(-20px);
+    transition: .5s;
+}
+
+.luimg1
+{
+    transition: .5s;
+}
+
+.luimg1:hover
+{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.sec5
+{
+    background-color: rgb(111,176,214);
+    height: 100px;
+}
+
+@media screen and (max-width: 992px)
+{
+    .sec5
+    {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        height: 140px;
+    }
+}
+
+.line a:hover::after
+{
+    background-color: white;
+    transform: scale(1);
+}
+
+.line a::after
+{
+    content: '';
+    display: block;
+    height: 1px;
+    transform: scale(0);
+    transition: transform .7s ease-in-out;
+    
+}
+
+.gtn
+{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+
+.getitnow
+{
+    width: 150px;
+    border: 1px solid rgb(153, 205, 50);
+    transition: .5s;
+}
+
+.getitnow:hover
+{
+    transition: .5s;
+    border-radius: 10%;
+    transform: scale(1.1);
+    border: 1px solid rgba(153, 205, 50, 0.273);
+}
+
+.gtn:hover
+{
+    color: greenyellow;
+}
+
+.getitnow a::after
+{
+    content: '>>';
+    transition: .5s;
+    display: inline-block;
+}
+
+.getitnow a:hover::after
+{
+    transform: translateX(10px);
+    transition: .5s;
+}
+
+.sec6
+{
+    background-color: rgba(0, 68, 156, 0.758);
+}
+
+.sec7
+{
+    background-color: rgba(243, 243, 243, 0.859);
+}
+
+.contc:hover
+{
+    color: orangered;
+    cursor: pointer;
+}
+
+.cont
+{
+    transition: .5s;
+}
+
+.cont:hover
+{
+    color: orangered;
+    cursor: pointer;
+    transition: .5s;
+    transform: scale(1.7);
+}
+
+.cont1
+{
+    color: rgba(245, 245, 245, 0.774);
+}
+
+.cont1:hover
+{
+    color: rgba(240, 248, 255, 0.532);
+    cursor: pointer;
+}
+
+.rot
+{
+    transition: 1s;
+}
+
+.rot:hover
+{
+    transition: 1s;
+    /* transform: rotate(360deg); */
+    transform: scale(.9);
+    background: rgba(0,0,0,0.6);
+}
+
+@media screen and (max-width: 370px){
+    .fontsi
+    {
+        font-size: 13px;
+    }
+} 

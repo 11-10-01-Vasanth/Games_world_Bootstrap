@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games Mania</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="icon" href="images.jpg">
+</head>
+<style>
+  
+</style>
+<body>
+  <div class="sec1" id="home">
+    <div class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgba(0,0,0,0.6);">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><h2><i class="text-warning bi bi-controller "></i></h2></a>
+          <div class="music d-lg-none">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="font-family: Audiowide, sans-serif;">
+              <li class="nav-item line">
+                <a class="nav-link active text-danger" aria-current="page" href="#Home"><h5>Home</h5> </a>
+              </li>
+              <li class="nav-item line">
+                <a class="nav-link text-warning" href="#Games"><h5>Updated Games</h5></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-warning" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Category
+                </a>
+                <ul class="dropdown-menu bg-warning" aria-labelledby="navbarDropdown">,
+                  <li><a class="dropdown-item  text-danger " href="#">Action</a></li>
+                  <li><a class="dropdown-item  text-danger" href="#">Adventure</a></li>
+                  <li><a class="dropdown-item  text-danger" href="#">FPP</a></li>
+                  <li><a class="dropdown-item  text-danger" href="#">Fighting</a></li>
+                  <li><a class="dropdown-item  text-danger" href="#">Explore</a></li>
+                  <li><a class="dropdown-item  text-danger" href="#">Multi Player</a></li>
+                  <li><a class="dropdown-item  text-danger" href="#">Open World</a></li>
+                  <li><a class="dropdown-item  text-danger" href="#">Puzzle</a></li>
+                  <li><a class="dropdown-item  text-danger" href="#">Race</a></li>
+                  <li><a class="dropdown-item  text-danger" href="#">Shooting</a></li>                  
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-danger" href="#">Others...</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex ms-auto form-floating">
+              <input type="email" class="form-control me-2 border border-danger bg-transparent text-light" style="border-radius: 20px;" id="floatingInput" placeholder="">
+              <label for="floatingInput" class="text-warning">Search...</label>
+              <button class="btn btn-outline-warning" style="border-radius: 30%;" type="submit"><i class="bi bi-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div>
+      <div class="container-fluid">
+        <div class="row mt-5 secc1" style="cursor: pointer;">
+          <div class="col-12 text-center text-light border border-warning rounded-2 order-2 order-lg-1 col-lg-5 img2">
+            <div style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                <img class="img-fluid rsicon mb-3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Rockstar_Games_Logo.svg/512px-Rockstar_Games_Logo.svg.png" alt="">
+                <h2>Featured Games</h2> <h2>Is Here</h2>
+                <p class="text-warning">FEATURING THE CLASSIC STORIES OF <b>Red Dead Redemption <br></b> AND <b>Undead Nightmare</b></p>
+              <button class="p-3 rounded-pill btn btn-outline-light bupn"> <b><i>PlayNow</i></b></button>
+            </div>
+          </div>
+          <div class="col-12 order-1 order-lg-2 col-lg-7">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade w-100" data-bs-ride="carousel" >
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="4700">
+                  <img src="https://fossbytes.com/wp-content/uploads/2023/02/How-to-play-Red-Dead-Redemption-2-with-REAL-VR-mod-by-luke-ross.jpg" class="d-block w-100 img-fluid img2" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="4700">
+                  <img src="https://wallpapers.com/images/featured/grand-theft-auto-v-naej4yiap4gnxh2o.jpg" class="d-block w-100 img-fluid img2" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="4700">
+                  <img src="https://wallpapers.com/images/hd/forza-horizon-5-4k-1w36g6z5gd7jai04.jpg" class="d-block w-100 img-fluid img2" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="4700">
+                  <img src="https://i0.wp.com/theallapps.com/wp-content/uploads/2022/09/NBA-2K23-Arcade-Edition_Key-Art_1920X1080.jpg?fit=1920%2C1080&ssl=1" class="d-block w-100 img-fluid img2" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="4700">
+                  <img src="https://wp-uploads.qualbert.com/2023/03/Resident-Evil-4-Remake-Wallpaper.jpg" class="d-block w-100 img-fluid img2" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="4700">
+                  <img src="https://prod.assets.earlygamecdn.com/images/EA-FC-24-Cover-standard-edition.jpg?mtime=1689944160" class="d-block w-100 img-fluid img2" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center align-items-center sec2" id="trending">
+    <div class="text-light d-flex justify-content-center"> 
+      <h1 style="margin-top: 50px;" class="tren">Trending</h1> 
+    </div>
+
+    <div class="container mt-5">
+      <div class="row gy-3 gx-5">
+        <div class="col-12 col-lg-4 col-md-6">
+          <div style="background: url('https://images.hdqwalls.com/wallpapers/ea-sports-ufc-5-ul.jpg') no-repeat center; background-size: cover; height: 300px;" class="img-fluid border rot">
+            <div class="img1 mt-4"><b>UFC 5</b></div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-md-6">
+          <div style="background: url('https://hips.hearstapps.com/hmg-prod/images/star-wars-jedi-survivor-0-6412f8c9c6b0f.jpg') no-repeat center; background-size: cover; height: 300px;" class="img-fluid border rot">
+            <div class="img1 mt-4"><b>Jedi Survivor</b></div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-md-6">
+          <div style="background: url('https://whatifgaming.com/wp-content/uploads/2022/10/Dead-Space-Remake-image.jpg') no-repeat center; background-size: cover; height: 300px;" class="img-fluid border rot">
+            <div class="img1 mt-4"><b>Dead Space</b></div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-md-6">
+          <div style="background: url('https://www.glitched.online/wp-content/uploads/2023/02/Wild-Hearts-a-gameplay-video-with-the-first-24-minutes-min.jpg') no-repeat center; background-size: cover; height: 300px;" class="img-fluid border rot">
+            <div class="img1 mt-4"><b>Wild Hearts</b></div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-md-6">
+          <div style="background: url('https://gameishard.gg/wp-content/uploads/2023/09/Battlefield-2042-Season-6-to-be-Revealed-on-October-6-2023_6515b44d056a9.jpg') no-repeat center; background-size: cover; height: 300px;" class="img-fluid border rot">
+            <div class="img1 mt-4"><b>BattleField 2042</b></div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-md-6">
+          <div style="background: url('https://i0.wp.com/gadget.co.za/wp-content/uploads/2023/08/EA-SPORTS-PIC-1.png?fit=706%2C481&ssl=1') no-repeat center; background-size: cover; height: 300px;" class="img-fluid border rot">
+            <div class="img1 mt-4" style="height: 250px;"><b>FC Mobile</b></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-5">
+      <button class="mb-5 p-3 btn btn-outline-light mb-2 bup" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; letter-spacing: 2px;"> <b>Latest Games</b></button>
+    </div>
+  </div>
+ 
+  <div class="sec3" id="shop">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-4 mt-5">
+          <div class="d-flex justify-content-between">
+            <div style="color: yellowgreen">
+             <h5>New Releases</h5>
+            </div>
+            <button class="btn btn-outline-light"><i>View more</i></button>
+          </div>
+          <div class="mt-3 text-light" style="font-family: 'Titillium_Web variant0', Tofu; letter-spacing: 1px;">
+            <div class="mt-3 d-flex secc3 p-3">
+              <img src="https://www.digitaltrends.com/wp-content/uploads/2022/04/co39po.jpg" alt="" class="img3 img-fluid">
+              <div class="ms-3 mt-3">
+                <span style="font-family: 'Lucida Console', Courier, monospace; letter-spacing: 1px;">Red  Fall</span>
+                <div class="d-flex mt-3">
+                  <h6><span class="badge bg-danger">-40%</span></h6> &nbsp;&nbsp;
+                  <div><del class="text-danger"><span>&#8377</span>3,999</del>&nbsp;&nbsp;<span>&#8377</span>2,399.40</div>
+                </div>
+              </div>
+            </div>
+            <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.114);"></div>
+            <div class="mt-3 d-flex secc3 p-3">
+              <img class="img3 img-fluid" src="https://images3.alphacoders.com/190/190657.jpg" alt="">
+              <div class="ms-3 mt-3">
+                <span style="font-family: 'Lucida Console', Courier, monospace; letter-spacing: 1px;">S.T.A.L.K.E.R 2</span>
+                <div class="d-flex mt-3">
+                  <h6><span class="badge bg-danger">-50%</span></h6> &nbsp;&nbsp;
+                  <div><del class="text-danger"><span>&#8377</span>899</del>&nbsp;&nbsp;<span>&#8377</span>499.50</div>
+                </div>
+              </div>
+            </div>
+            <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.114);"></div>
+            <div class="mt-3 d-flex secc3 p-3">
+              <img class="img3 img-fluid" src="data:image/jpeg;base64,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" alt="">
+              <div class="ms-3 mt-3">
+                <span style="font-family: 'Lucida Console', Courier, monospace; letter-spacing: 1px;">SENGOKU</span> 
+                <div class="d-flex mt-3">
+                  <h6><span class="badge bg-danger">-20%</span></h6> &nbsp;&nbsp;
+                  <div><del class="text-danger"><span>&#8377</span>2,900</del>&nbsp;&nbsp;<span>&#8377</span>2,320</div>
+                </div>
+              </div>
+            </div>
+            <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.114);"></div>
+            <div class="mt-3 d-flex secc3 p-3">
+              <img class="img3 img-fluid" src="https://i0.wp.com/gamermatters.com/wp-content/uploads/2022/12/Transformers_Reactivate_Key-Art.jpg?fit=1920%2C1080&ssl=1" alt="">
+              <div class="ms-3 mt-3">
+                <span style="font-family: 'Lucida Console', Courier, monospace; letter-spacing: 1px;">Transformers Reative</span>
+                <div class="d-flex mt-3">
+                  <h6><span class="badge bg-danger">-50%</span></h6> &nbsp;&nbsp;
+                  <div><del class="text-danger"><span>&#8377</span>2,999</del>&nbsp;&nbsp;<span>&#8377</span>1,499.50</div>
+                </div>
+              </div>
+            </div>
+            <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.114);"></div>
+            <div class="mt-3 d-flex secc3 p-3">
+              <img class="img3 img-fluid" src="https://cdn.mos.cms.futurecdn.net/SAkJMarHg4TAUTLDHMYvnR-200-100.jpg" alt="">
+              <div class="ms-3 mt-3">
+                <span style="font-family: 'Lucida Console', Courier, monospace; letter-spacing: 1px;">LightYear Frontier</span>
+                <div class="d-flex mt-3">
+                  <h6><span class="badge bg-danger">-30%</span></h6> &nbsp;&nbsp;
+                  <div><del class="text-danger"><span>&#8377</span>3,299</del>&nbsp;&nbsp;<span>&#8377</span>2,309.30</div>
+                </div>
+              </div>
+            </div>
+            <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.114);"></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4 mt-5">
+          <div class="d-flex justify-content-between">
+            <div style="color: yellowgreen">
+              <h5>Top player Rated</h5>
+            </div>
+            <button class="btn btn-outline-light"> <i>View more</i> </button>
+          </div>
+          <div class="mt-3 text-light">
+            <div class="mt-3 d-flex secc3 p-3">
+              <img src="https://assets-prd.ignimgs.com/2022/03/09/pubgbattlegrounds-1646861967387.jpg" alt="" class="img3">
+              <div class="ms-3 mt-3">
+                <span style="font-family: 'Lucida Console', Courier, monospace; letter-spacing: 1px;">PUBG BattleGrounds</span> <br><br>
+                <div class="getitnow text-center">
+                  <a href="" class="gtn">GET IT NOW</a>
+                </div>
+              </div>
+            </div>
+            <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.114);"></div>
+            <div class="mt-3 d-flex secc3 p-3">
+              <img class="img3 img-fluid" src="https://5.imimg.com/data5/XE/QK/FC/SELLER-51145740/grand-theft-auto-v-gta5--125x125.jpg" alt="">
+              <div class="ms-3 mt-3">
+                <span style="font-family: 'Lucida Console', Courier, monospace; letter-spacing: 1px;">GTA 5</span> <br><br>
+                <div class="getitnow text-center">
+                  <a href="" class="gtn">GET IT NOW</a>
+                </div>
+              </div>
+            </div>
+            <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.114);"></div>
+            <div class="mt-3 d-flex secc3 p-3">
+              <img class="img3 img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTHk3x5Zm2aIeA-n2mO0WBhtQXM8-vcGEJ793O4WrgX1HNXo-7YEBMjZ-Dr4p3cz_S9Ng&usqp=CAU" alt="">
+              <div class="ms-3 mt-3"> 
+                <span style="font-family: 'Lucida Console', Courier, monospace; letter-spacing: 1px;">WWE 23</span> <br><br>
+                <div class="getitnow text-center">
+                  <a href="" class="gtn">GET IT NOW</a>
+                </div>
+              </div>
+            </div>
+            <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.114);"></div>
+            <div class="mt-3 d-flex secc3 p-3">
+              <img class="img3 img-fluid" src="https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA08519_00/12/i_3da1cf7c41dc7652f9b639e1680d96436773658668c7dc3930c441291095713b/i/icon0.png" alt="">
+              <div class="ms-3 mt-3">
+                <span style="font-family: 'Lucida Console', Courier, monospace; letter-spacing: 1px;">Red Dead Redemption 2</span> <br><br>
+                <div class="getitnow text-center">
+                  <a href="" class="gtn">GET IT NOW</a>
+                </div>
+              </div>
+            </div>
+            <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.114);"></div>
+            <div class="mt-3 d-flex secc3 p-3">
+              <img class="img3 img-fluid" src="https://images2.alphacoders.com/127/1276415.jpg" alt="">
+              <div class="ms-3 mt-3">
+                <span style="font-family: 'Lucida Console', Courier, monospace; letter-spacing: 1px;">Fifa 23</span> <br><br>
+                <div class="getitnow text-center">
+                  <a href="" class="gtn">GET IT NOW</a>
+                </div>
+              </div>
+            </div>
+            <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.114);"></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4 mt-5">
+          <div class="d-flex justify-content-between">
+            <div style="color: yellowgreen">
+              <h5>Coming Soon</h5>
+            </div>
+            <button class="btn btn-outline-light"> <i>View more</i></button>
+          </div>
+          <div class="mt-3 text-light" style="font-family: 'Titillium_Web variant0', Tofu; letter-spacing: 1px;">
+            <div class="mt-3 d-flex secc3 p-3">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq0u8UTU8N2d4NsZVj2oszOz7LUWfm8tH1oddqnhIs4R0b0xWKahLd86p8yoty3IQvxDY&usqp=CAU" alt="" class="img3  img-fluid">
+              <div class="ms-3 mt-3">
+                <span style="font-family: 'Lucida Console', Courier, monospace; letter-spacing: 1px;">Rise Of KONG</span> <br>
+                <span class="text-light bg-danger" style="font-family:  'Sometype_Mono variant0', Tofu; font-size: small;">Available 2/11/23</span>
+              </div>
+            </div>
+            <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.114);"></div>
+            <div class="mt-3 d-flex secc3 p-3">
+              <img class="img3 img-fluid" src="https://news.xbox.com/en-us/wp-content/uploads/sites/2/2023/06/Hero-bfa95e1d43245e3aa617.jpg" alt="">
+              <div class="ms-3 mt-3">
+                <span style="font-family: 'Lucida Console', Courier, monospace; letter-spacing: 1px;">Immortals</span> <br>
+                <span class="text-light bg-danger" style="font-family:'Sometype_Mono variant0', Tofu; font-size: small;">Available 1/12/23</span>
+              </div>
+            </div>
+            <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.114);"></div>
+            <div class="mt-3 d-flex secc3 p-3">
+              <img class="img3 img-fluid" src="https://static.tweaktown.com/content/9/9/9955_401_far-cry-6-benchmarked-1080p-1440p-4k_full.jpg" alt="">
+              <div class="ms-3 mt-3">
+                <span style="font-family: 'Lucida Console', Courier, monospace; letter-spacing: 1px;">FarCry 6</span> <br>
+                <span class="text-light bg-danger" style="font-family:'Sometype_Mono variant0', Tofu; font-size: small;">Available 21/11/23</span>
+              </div>
+            </div>
+            <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.114);"></div>
+            <div class="mt-3 d-flex secc3 p-3">
+              <img class="img3 img-fluid" src="https://www.pcworld.com/wp-content/uploads/2023/07/Xyph6dvBi9oydZYwPdcP4C-1.jpg?quality=50&strip=all" alt="">
+              <div class="ms-3 mt-3">
+                <span style="font-family: 'Lucida Console', Courier, monospace; letter-spacing: 1px;">Star Field</span> <br>
+                <span class="text-light bg-danger" style="font-family:  'Sometype_Mono variant0', Tofu; font-size: small;">Available 5/11/23</span>
+              </div>
+            </div>
+            <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.114);"></div>
+            <div class="mt-3 d-flex secc3 p-3">
+              <img class="img3 img-fluid" src="https://lumiere-a.akamaihd.net/v1/images/star-wars-outlaws-key-art-square_b893fc9e.jpeg?region=0%2C0%2C1080%2C1080" alt="">
+              <div class="ms-3 mt-3">
+                <span style="font-family: 'Lucida Console', Courier, monospace; letter-spacing: 1px;">Star Wars Outlaws</span> <br>
+                <span class="text-light bg-danger" style="font-family:  'Sometype_Mono variant0', Tofu; font-size: small;">Available 2/1/24</span>  
+              </div>
+            </div>
+            <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.114);" class="mb-5"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec4">
+    <div class="text-light d-flex justify-content-center"> <h4 class="mt-5" style="font-family:  ElectronicArtsText, Verdana, Helvetica, Arial, sans-serif;font-weight: 400;
+      line-height: 27px" id="latestupd">Latest Updates</h4> 
+    </div>
+
+    <div class="container mt-5">
+      <div class="row d-flex text-light justify-content-around">
+        <div class="lu1 col" style="border-right: 1px solid rgba(255, 255, 255, 0.414); font-family: 'Josefin_Sans variant0', Tofu; letter-spacing: 3px;">News</div>
+        <div class="lu1 col" style="border-right: 1px solid rgba(255, 255, 255, 0.414); font-family: 'Josefin_Sans variant0', Tofu; letter-spacing: 3px;">EA Sports FC</div>
+        <div class="lu1 col" style="border-right: 1px solid rgba(255, 255, 255, 0.414); font-family: 'Josefin_Sans variant0', Tofu; letter-spacing: 3px;">Apex Legends</div>
+        <div class="lu1 col d-none d-md-block" style="border-right: 1px solid rgba(255, 255, 255, 0.414); font-family: 'Josefin_Sans variant0', Tofu; letter-spacing: 3px;">Madden NFL</div>
+        <div class="lu1 col d-none d-lg-block" style="border-right: 1px solid rgba(255, 255, 255, 0.414); font-family: 'Josefin_Sans variant0', Tofu; letter-spacing: 3px;">Star Wars</div>
+        <div class="lu1 col d-none d-lg-block" style="border-right: 1px solid rgba(255, 255, 255, 0.414); font-family: 'Josefin_Sans variant0', Tofu; letter-spacing: 3px;">Sims4</div>        
+        <div class="lu1 col d-none d-lg-block" style="border-right: 1px solid rgba(255, 255, 255, 0.414); font-family: 'Josefin_Sans variant0', Tofu; letter-spacing: 3px;">FarCry4</div>        
+        <div class="lu1 col d-none d-lg-block">GTA 6</div>
+      </div>
+    </div>
+    <div class="mt-3" style="border-bottom: 2px solid #dedede47;"></div>
+
+    <div class="mt-5">
+      <div class="container">
+        <div class="row gx-4 gy-5 mt-3">
+          <div class="col-12 col-lg-4">
+            <div class="luimg">
+              <img class="img-fluid luimg1" src="https://media.contentapi.ea.com/content/dam/news/www-ea/common/ripple-effect-inspire-week-gathering-sept-2023-thumbnail.jpg.adapt.crop16x9.431p.jpg" alt="">
+              <div class="p-4 lu">
+                <h5>New PC games in 2023: this year's upcoming releases</h5>
+                <p class="text-start d-none d-lg-block">October's here, and this spooky season we're facing the greatest terror of all: too many new games. It's been a stampede of big releases since August, and fall seems determined to keep filling our plates.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="luimg">
+              <img class="img-fluid luimg1" src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1CtPdfh3ZYHZmiOvtyzFe8/0ef112b73d9a6ade5f97dd4d99ccb952/acm-basim-960x540.jpg" alt="">
+              <div class="p-4 lu">
+                <h5>Assassin's Creed Mirage | October 5</h5>
+                <p class="text-start d-none d-lg-block">Seems Ubisoft's grown nostalgic for the age when Assassin's Creed had a few more assassins (and creeds thereof). In Mirage, become the most lethal man in Baghdad as the series returns to form.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="luimg">
+              <img class="img-fluid luimg1" src="https://images.ctfassets.net/wn7ipiv9ue5v/LL7jENlMsImCCYtjVADNh/af78406a1aac382c71d5a25387af76f7/KSP2EA_D2C_HeroBanner_Frame1__1_.jpg" alt="">
+              <div class="p-4 lu">
+                <h5>Kerbal Space Program 2 | February 24 (Early Access)</h5>
+                <p class="text-start d-none d-lg-block">Your favorite little green astronauts are back, and they've got their sights set on distant stars. Master new technologies to establish space colonies, orbital installations, and-eventually-achieve interstellar travel.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="luimg">
+              <img class="img-fluid luimg1" src="https://insider-gaming.com/wp-content/uploads/2023/05/gta-6-1.jpg" alt="">
+              <div class="p-4 lu">
+                <h5>New Rockstar Games logo has fans believing a GTA 6 reveal is imminent</h5>
+                <p class="text-start d-none d-lg-block">While nothing has been confirmed by Rockstar, the developer clearly has something up their sleeve, following suspicious activity on GTA Online, as well as what fans are calling straight-up “trolling’ on their social media.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="luimg">
+              <img class="img-fluid luimg1" src="https://assets-webp.khelnow.com/news/uploads/2023/07/3c7c90cf-ea-sports-fc-24-1.jpg.webp" alt="">
+              <div class="p-4 lu">
+                <h5>RONALDO VS MESSI: WHO IS BETTER IN EA SPORTS FC 24</h5>
+                <p class="text-start d-none d-lg-block">Luckily, both players are still top picks in EA Sports FC 24. These statistics may change as the game progresses, and, for Ultimate Team players, you will likely find special player cards with improved statistics as the game progresses.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 mb-5">
+            <div class="luimg">
+              <img class="img-fluid luimg1" src="https://assets-prd.ignimgs.com/2023/09/27/h1-1695818058325.jpg" alt="">
+              <div class="p-4 lu">
+                <h5>Horizon Forbidden West Release in 2024</h5>
+                <p class="text-start d-none d-lg-block">Horizon Forbidden West is planned to Launch on October 6 for PS5 Ahead of PCon PC via Steam and Epic in “early 2024”.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-5 d-flex justify-content-center">
+          <button class="mb-5 p-3 btn btn-outline-light mb-2 bup" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; letter-spacing: 2px;"> <b>Read More</b></button>
+        </div>
+      </div>
+    </div>
+  <div>
+  
+    <div class="sec5">
+      <div class="container">
+        <div class="row" style="height: 100px;">
+          <div class="col-12 col-lg-6 d-flex align-items-center justify-content-center">
+            <h5><b>Players and Parents:  Video game control is in your hands</b></h5>
+          </div>
+          <div class="col-12 col-lg-6 text-end d-flex align-items-center justify-content-center">
+            <button class="btn btn-outline-light border-2 p-2" style="width: 150px;">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="sec6">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 mt-5 fontsi">
+          <nav style="--bs-breadcrumb-divider: '->'" aria-label="breadcrumb">
+            <ol class="breadcrumb text-light">
+              <li class="breadcrumb-item"><a href="#home" class="text-light"><u>Home</u></a></li>
+              <li class="breadcrumb-item text-light" aria-current="page"><a class="text-light text-decoration-none" href="#trending">Trending</a></li>
+              <li class="breadcrumb-item" aria-current="page"><a class="text-light text-decoration-none" href="#shop">Shop</a></li>
+              <li class="breadcrumb-item" aria-current="page"><a class="text-light text-decoration-none" href="#latestupd">Latest Updates</a></li>
+            </ol>
+          </nav>
+        </div>
+        <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.314);" class="mt-3 mb-5"></div>
+        <div class="col text-light">
+          <div><b>About</b></div>
+          <div class="mt-3">
+            <div class="cont1">About SIE</div>
+            <div class="cont1">Careers</div>
+            <div class="cont1">PlayStation Studios</div>
+            <div class="cont1">PlayStation Productions</div>
+            <div class="cont1">Corporate</div>
+          </div>
+        </div>
+        <div class="col text-light">
+          <div><b>Products</b></div>
+          <div class="mt-3">
+            <div class="cont1"> PS5</div>
+            <div class="cont1">PS4</div>
+            <div class="cont1">PS VR2</div>
+            <div class="cont1">PS Plus</div>
+            <div class="cont1">Accessories</div>
+            <div class="cont1">Games</div>
+          </div>
+        </div>       
+        <div class="col text-light d-none d-lg-block">
+          <div><b>Values</b></div>
+          <div class="mt-3">
+            <div class="cont1">Environment</div>
+            <div class="cont1">Accessibility</div>
+            <div class="cont1">Online safety</div>
+            <div class="cont1">Diversity, equity & inclusion</div>
+          </div>
+        </div>
+        <div class="col text-light d-none d-md-block">
+          <div><b>Support</b></div>
+          <div class="mt-3">
+            <div class="cont1">Support hub</div>
+            <div class="cont1">PlayStation Safety</div>
+            <div class="cont1">PSN Status</div>
+            <div class="cont1">PlayStation Repairs</div>
+            <div class="cont1">Password reset</div>
+          </div>
+        </div>
+        <div class="col text-light d-none d-md-block">
+          <div><b>Resources</b></div>
+          <div class="mt-3">
+            <div class="cont1">PSN terms of service</div>
+            <div class="cont1">PS Store cancellation policy</div>
+            <div class="cont1">PAge ratings</div>
+            <div class="cont1">Health warning</div>
+            <div class="cont1">Developers</div>
+            <div class="cont1">Glossary</div>
+          </div>
+        </div>
+        <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.314);" class="mt-5 mb-5"></div>
+      </div>
+    </div>
+  </div>
+
+    <div class="sec7">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12 col-md-1 mt-3 contc">
+            Careers
+          </div>
+          <div class="col-12 col-md-1 mt-3 contc">
+            Terms
+          </div>
+          <div class="col-12 col-md-2 mt-3 contc">
+            Subscribe
+          </div>
+          <div class="col-12 col-md-2 mt-3 contc">
+            Our Commitments
+          </div>
+          <div class="col-12 col-md-2 mt-3 contc">
+            Partner With Us
+          </div>
+          <div class="col-12 col-md-4 text-center mt-3">
+            <div class="contc">Join The Conversation</div>
+            <div class="d-flex justify-content-around mt-5 mb-3">
+              <i class="cont bi bi-facebook"></i>
+              <i class="cont bi bi-instagram"></i>
+              <i class="cont bi bi-youtube"></i>
+              <i class="cont bi bi-twitch"></i>
+              <i class="cont bi bi-twitter"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
